@@ -2,8 +2,9 @@ sum = 0
 l = 1
 num = int(input("Enter a number "))
 
-if l > num:
+if num > l:
+    for item in range(num):
+        sum += item
     print(sum)
 else:
-    sum += num
-    l +=1
+    l+=1
